@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Drama Flix</string>
+    <string name="nav_discover">Discover</string>
+    <string name="nav_player">Cinema</string>
+    <string name="nav_library">Saved</string>
+    <string name="nav_history">History</string>
+    <string name="nav_admin">Admin</string>
+    <string name="featured_title">Featured AI Movie</string>
+    <string name="watch_now">Watch Now</string>
+    <string name="resume_watching">Resume Watching</string>
+    <string name="open_url">Open Custom Link</string>
+    <string name="bookmark_added">Added to Saved</string>
+    <string name="bookmark_removed">Removed from Saved</string>
+    <string name="history_cleared">Watch history cleared</string>
+    <string name="coins_label">Coins</string>
+    <string name="vip_pass">VIP Pass</string>
+    <string name="watch_ad_for_coins">Watch Ad +%d Coins</string>
+    <string name="unlock_episode">Unlock Episode</string>
+</resources>

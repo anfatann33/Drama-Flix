@@ -1,0 +1,56 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Clapperboard top / diagonal stripes -->
+    <path
+        android:pathData="M30,30 L78,30 A4,4 0 0,1 82,34 L82,42 L26,42 L26,34 A4,4 0 0,1 30,30 Z"
+        android:fillColor="#8B5CF6" />
+    <path
+        android:pathData="M34,30 L40,30 L32,42 L26,42 Z"
+        android:fillColor="#FBBF24" />
+    <path
+        android:pathData="M48,30 L54,30 L46,42 L40,42 Z"
+        android:fillColor="#FFFFFF" />
+    <path
+        android:pathData="M62,30 L68,30 L60,42 L54,42 Z"
+        android:fillColor="#FBBF24" />
+    <path
+        android:pathData="M76,30 L80,30 A4,4 0 0,1 82,34 L82,36 L74,42 L68,42 Z"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Main screen / slate body with subtle gradient -->
+    <path android:pathData="M26,43 L82,43 L82,74 A6,6 0 0,1 76,80 L32,80 A6,6 0 0,1 26,74 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="26"
+                android:startY="43"
+                android:endX="82"
+                android:endY="80"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#4C1D95" />
+                <item android:offset="1.0" android:color="#1E1B4B" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Outer golden neon border around body -->
+    <path
+        android:pathData="M26,43 L82,43 L82,74 A6,6 0 0,1 76,80 L32,80 A6,6 0 0,1 26,74 Z"
+        android:strokeColor="#A78BFA"
+        android:strokeWidth="1.5"
+        android:fillColor="#00000000" />
+
+    <!-- Centered play button with warm gold -->
+    <path
+        android:pathData="M49,52 L65,61.5 L49,71 Z"
+        android:fillColor="#FBBF24" />
+
+    <!-- Sparkle indicator for AI -->
+    <path
+        android:pathData="M69,47 L70.5,50.5 L74,52 L70.5,53.5 L69,57 L67.5,53.5 L64,52 L67.5,50.5 Z"
+        android:fillColor="#FCD34D" />
+</vector>

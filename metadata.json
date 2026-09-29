@@ -1,0 +1,8 @@
+{
+  "name": "Drama Flix",
+  "description": "Discover the newest AI movies and popular short dramas all in one app. Enjoy trending vertical stories, emotional romance, revenge, fantasy, billionaire dramas, suspense, and more, with fresh episodes and new AI-powered stories added regularly.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
